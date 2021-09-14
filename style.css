@@ -1,0 +1,92 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    
+    background-color: rgb(8, 19, 12);
+        color: white;
+    text-align: center;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+.container {
+    text-align: center;
+    padding: 10px;
+    height: 25vh;
+  }
+  
+.page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+    font-size: 50px;
+  }
+  
+.page-subtitle {
+    color:#ffffff;
+    margin-top: 7px;
+   
+  }
+  
+.page-logo {
+    width: 200px;
+    margin: 10px;
+  }
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+.calculator {
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);
+    border: 3px rgb(48, 68, 52) solid;
+    border-radius: 4px;
+    box-shadow: 8px 8px 12px black ;
+    margin-top: 20px;
+    width: 55%;
+    height: 60vh;
+    color: white;
+    align-self: center;
+    
+  
+   
+  }
+
+label {
+  margin-top: 6px;
+  padding: 10px;
+ 
+}
+
+input {
+    width: 50px;
+    border-radius: 2px;
+    border: none;
+  }
+
+button {
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 16px;
+    width: 35%;
+    align-self: center;
+    box-shadow: 2px 2px 5px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Opens sans', sans-serif;
+   
+  
+}
+
+#results {
+  margin-top: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev Alura - Aula 01</title>
+    <link href="style.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+        Calculadora de média</h1>
+        <p class="page-subtitle">
+        Descubra qual a sua média de nota de todas as provas!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+
+      <section class="calculator">
+        
+          <label> 
+           Nota do 1º Bimestre: <input type="number" id="primeiraNota" name="primeiro-bimestre" min="0" max="10" autofocus required>
+          </label>
+          <label> 
+            Nota do 2º Bimestre: <input type="number" id="segundaNota" name="segundo-bimestre" min="0" max="10" required>
+          </label>
+          <label> 
+           Nota do 3º Bimestre: <input type="number" id="terceiraNota" name="terceiro-bimestre" min="0" max="10" required>
+          </label>
+          <label> 
+         Nota do 4º Bimestre: <input type="number" id="quartaNota" name="quarto-bimestre" min="0" max="10" required>
+          </label>
+          
+          <label>
+            Informe a média necessária para a aprovação: <input type="number" id="mediaNecessaria" name="media" min="0" max="10"required>
+          </label>
+
+          <button onclick="calculaMedia()">Calcule sua média</button>
+      
+        
+        <div id="results">
+          
+        </div>
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>
